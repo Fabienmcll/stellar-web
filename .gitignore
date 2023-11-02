@@ -4,8 +4,5 @@ package-lock.json
 # Ignorer le fichier package.json
 package.json
 
-# Ignorer le fichier tailwind.config.js
-tailwind.config.js
-
 # Ignorer le dossier node_modules
 node_modules/
