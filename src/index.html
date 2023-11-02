@@ -7,9 +7,11 @@
       <link rel="stylesheet" href="../dist/output.css">
       <title>Stellar Web</title>
    </head>
-   <body class="w-full h-screen bg-indigo-800 text-white box-border overflow-y-hidden			">
-      <div id="container" class="h-screen">
-         <div id="topbar" class="flex justify-between mx-24 mt-5">
+   <body class="w-full  bg-indigo-800 text-white box-border">
+
+      <!-- TopBar -->
+      
+         <div class="flex justify-between mx-24 mt-5">
             <div>
                <p class="font-Sen font-bold text-lg cursor-pointer	">Stellar Web</p>
             </div>
@@ -17,14 +19,18 @@
                <ul class="flex font-Inter text-lg font-normal ">
                   <li class="mr-16 hover:underline"><a href="">Home</a></li>
                   <li class="mr-16 hover:underline"><a href="">About</a></li>
-                  <li class="mr-16 hover:underline"><a href="">Blog</a></li>
-                  <li><a href="">Contact</a></li>
+                  <li class="hover:underline"><a href="">Contact</a></li>
                </ul>
             </div>
          </div>
-         <div class="flex items-center justify-around w-8/12 mx-auto h-5/6">
+
+
+
+         <!-- Box 1 -->
+
+         <div class="flex items-center justify-around w-8/12 mx-auto mt-44">
             <div>
-               <img class="transform scale-100 transition-transform transition-delay-500 hover:scale-110" src="assets/05.png" alt="" style="height: 500px; width: 500px;">
+               <img src="assets/05.png" alt="" style="height: 500px; width: 500px;">
             </div>
             <div class="ml-5">
                <h1 class="font-Sen text-7xl font-bold">Hello <br class="block"> Astronaut</h1>
@@ -34,11 +40,64 @@
                   arcu. Nunc id odio vitae ante volutpat bibendum. Fusce sit amet leo orci. Vestibulum 
                   nec massa in erat cursus viverra. Praesent ultricies aliquam urna, a venenatis arcu laoreet a.
                </p>
-               <button class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500e  py-2 px-4 border border-white rounded-full mt-7  hover:bg-fuchsia-600">
-                Read More
-               </button>
+               <a href="#box2" class="scroll-button">
+                  <button class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500e  py-2 px-4 border border-white rounded-full mt-7  hover:bg-fuchsia-600">
+                     Read More
+                  </button>
+               </a>
             </div>
          </div>
-      </div>
+         
+
+          <!-- Box 2 -->
+         
+          <div id="box2" class="flex items-center justify-center w-8/12 mx-auto  mt-80">
+            <div>
+               <img src="assets/02.jpeg" alt="" style="height: 300px; width: 300px;">
+            </div>
+            <div class="ml-5">
+               <p class="w-96 mt-12 font-Inter text-lg font-normal ml-40">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sapien at
+                  turpis gravida tristique. Fusce vel erat a odio laoreet fermentum. Nullam varius,
+                  oio id ultrices vulputate, tellus tortor lacinia ex, vel feugiat risus justo.
+               </p>
+            </div>
+         </div>
+
+           <!-- Box 3 -->
+         
+           <div class="flex items-center justify-center w-8/12 mx-auto mt-64">
+            <div>
+              <p class="w-96 mt-12 font-Inter text-lg font-normal mr-40">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sapien at
+                  turpis gravida tristique. Fusce vel erat a odio laoreet fermentum. Nullam varius,
+                  oio id ultrices vulputate, tellus tortor lacinia ex, vel feugiat risus justo.
+               </p>
+            </div>
+            <div class="ml-5">
+               <img src="assets/03.jpeg" alt="" style="height: 300px; width: 300px;">
+            </div> 
+         </div>
+
+           <!-- Box 4 -->
+         
+           <div class="flex items-center justify-center w-8/12 mx-auto mt-44">
+            <div>
+               <img src="assets/04.jpeg" alt="" style="height: 300px; width: 300px;">
+            </div>
+            <div class="ml-5">
+               <p class="w-96 mt-12 font-Inter text-lg font-normal ml-40">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sapien at
+                  turpis gravida tristique. Fusce vel erat a odio laoreet fermentum. Nullam varius,
+                  oio id ultrices vulputate, tellus tortor lacinia ex, vel feugiat risus justo.
+               </p>
+            </div>
+         </div>
+
+         <footer class="text-center mt-44 mb-3">
+            <p>© 2023 Stellar Web. Tous droits réservés.</p>
+         </footer>
+
+         <script src="js/scroll.js"></script>
+         
+
+
    </body>
 </html>

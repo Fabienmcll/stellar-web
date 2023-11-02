@@ -12,4 +12,6 @@ Ce projet consiste en la création d'un site web sur le thème de l'espace et de
 
 - **Utilisation de Tailwind CSS**: J'ai mis en avant mes compétences dans l'utilisation de Tailwind CSS pour créer un site web esthétiquement plaisant et bien structuré.
 
+- **Génération d'assets par une IA**: Les images présents sur le site ont été générés par une intelligence artificielle, ajoutant ainsi une touche moderne et innovante à ce projet.
+
 
