@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/05.png" type="image/x-icon">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Stellar Web - Contact</title>
+</head>
+<body class="bg-indigo-800 text-white box-border w-full h-full overflow-y-hidden">
+
+         <!-- TopBar -->
+         <div class="mt-5 mx-2 md:mx-4 lg:mx-24 bg-indigo-800 text-white">
+            <div class="flex justify-between">
+               <div>
+                  <a class="font-Sen font-bold text-sm md:text-lg cursor-pointer" href="index.html">Stellar Web</a>
+               </div>
+               <div>
+                  <ul class="flex font-Inter text-sm md:text-lg font-normal">
+                     <li class="mr-8 xl:mr-16 hover:underline"><a href="index.html">Home</a></li>
+                     <li class="mr-8 xl:mr-16 hover:underline"><a href="about.html">About</a></li>
+                     <li class="hover:underline"><a href="#">Contact</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+
+         <!-- Contact form -->
+        <div class=" flex flex-col justify-center items-center h-screen  max-w-screen-md mx-auto">
+            <h2 class="mb-4 font-Sen text-6xl md:text-7xl font-bold  text-center  underline">Contact Us</h2>
+            <p class="mb-8 lg:mb-16  text-center font-Inter text-sm md:text-lg">Nunc id odio vitae ante volutpat bibendum. Fusce sit amet leo orci. Praesent ultricies aliquam urna, a venenatis arcu laoreet.</p>
+            <form action="#" class="space-y-8 w-5/6	">
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-Inter font-medium">Your email</label>
+                    <input type="email" id="email" class="shadow-sm  border border-gray-300  text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required>
+                </div>
+                <div>
+                    <label for="subject" class="block mb-2 text-sm font-medium font-Inter">Subject</label>
+                    <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="message" class="block mb-2 text-sm font-medium font-Inter">Your message</label>
+                    <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+                </div>
+                <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+            </form>
+        </div>
+
+</body>
+</html>
